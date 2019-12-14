@@ -1,0 +1,11 @@
+#!/bin/bash
+
+mkdir postwork
+cd postwork
+
+curl -O -c - --retry 999 https://www.kaggle.com/leonardopena/top50spotify2019/download
+
+unzip top50spotify2019.zip #Descomprimo el archivo
+
+rm top50spotify2019.zip #Ellimino el archivo .zip
+

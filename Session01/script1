@@ -1,0 +1,15 @@
+#!/bin/bash
+
+mkdir MiProyecto
+cd MiProyecto
+
+curl https://www.kaggle.com/checoalejandro/autos-consumo-gasolina-mexico.zip
+unzip autos-consumo-gasolina-mexico.zip
+rm autos-consumo-gasolina-mexico.zip
+
+cd ..
+
+cp -r MiProyecto MiProyecto.1
+
+ls
+
